@@ -12,9 +12,9 @@ namespace Cinema.Domain.Models
 
     public enum HallType
     {
-        Normall = 2,
-        Big = 3,
-        VIP = 4
+        Normall = 1,
+        Big = 2,
+        VIP = 3
     }
 
     public enum MovieCategory

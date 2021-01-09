@@ -6,7 +6,6 @@ namespace Cinema.Domain.Models
 {
     public class Movie : Entity
     {
-        public ISet<Ticket> Tickets { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
         public double Rate { get; set; }
@@ -16,5 +15,7 @@ namespace Cinema.Domain.Models
         public string DirectorName { get; set; }
         public DateTime ReleaseDate { get; set; }
         public bool IsActive { get; set; }
+
+        public ISet<Ticket> Tickets { get; set; }
     }
 }
