@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Cinema.Domain.Models;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Cinema.Domain.Interfaces
 {
-    public interface ITicketRepository
+    public interface ITicketRepository : IGenericRepository<Ticket>
     {
     }
 }
